@@ -29,6 +29,3 @@
         resource_tags:
         Name: vprofile-pubsub1
       register: pubsub1_out
-
-      -debug:
-         var: pubsub1_out
