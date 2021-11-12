@@ -33,7 +33,7 @@
         - package
 
     - apt_repository:
-        repo: deb https://dl.bintray.com/rabbitmq-erlang/debian focal erlang-22.x" | sudo tee /etc/apt/sources.list.d/rabbitmq.list
+        repo: deb https://packagecloud.io/install/repositories/rabbitmq/rabbitmq-server/script.deb.sh | sudo bash
         state: present
       tags:
         - package
