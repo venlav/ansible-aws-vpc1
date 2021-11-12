@@ -33,7 +33,7 @@
         - package
 
     - apt_repository:
-        repo: deb https://dl.bintray.com/rabbitmq/debian bionic main
+        repo: deb https://dl.bintray.com/rabbitmq-erlang/debian focal erlang-22.x" | sudo tee /etc/apt/sources.list.d/rabbitmq.list
         state: present
       tags:
         - package
