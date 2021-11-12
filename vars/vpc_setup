@@ -23,4 +23,4 @@ state: present
 
 #bastion setup
 bastion_ami: ami-074cce78125f09d61
-MYIP:  49.206.46.211/32
+MYIP:  124.123.179.121/32
